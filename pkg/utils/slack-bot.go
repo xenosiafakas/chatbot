@@ -63,8 +63,8 @@ func findRating(input string) (bool, float64) {
 }
 
 func InitiateConversation() {
-	os.Setenv("SLACK_BOT_TOKEN", "xoxb-6322140561363-6369458217777-bsb43lmQd6GkFpuzNUb54P3B")
-	os.Setenv("SLACK_APP_TOKEN", "xapp-1-A06AGQ1SC9Y-6356493042822-43177e9261741bd68cb6794f695ea0b2e3e56ea60701568fa8d313993675a5b3")
+	os.Setenv("SLACK_BOT_TOKEN")
+	os.Setenv("SLACK_APP_TOKEN")
 
 	bot := slacker.NewClient(os.Getenv("SLACK_BOT_TOKEN"), os.Getenv("SLACK_APP_TOKEN"))
 
